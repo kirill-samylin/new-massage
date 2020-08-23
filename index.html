@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS-сообщение</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+    <form class="massage" method="post" action="#">
+        <div class="massage__header">
+            <h2 class="massage__title">Отправить SMS:</h2>
+            <textarea name="massage" id="" cols="30" rows="10" minlength="1" class="header__textarea" pattern="[^a-zA-Z]" required></textarea>
+        </div>
+        <div class="massage__footer">
+            <div class="massage__transliterate">
+                <input class="massage__input" type="checkbox" name="transliterate" value="a5">
+                <label class="massage__label" for="transliterate">Транслитерировать</label>
+            </div>
+            <p class="massage__length"><span class="count-characters">0</span>/<span class="count-limit">0</span></p>
+        </div>
+        <button type="submit" class="massage__save">Сохранить</button>
+    </form>
+    <script type="module" src="./pages/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@import url('./__footer/massage__footer.css');
+@import url('./__header/massage__header.css');
+@import url('./__input/massage__input.css');
+@import url('./__label/massage__label.css');
+@import url('./__length/massage__length.css');
+@import url('./__save/massage__save.css');
+@import url('./__textarea/header__textarea.css');
+@import url('./__title/massage__title.css');
+@import url('./__transliterate/massage__transliterate.css');
+
+.massage {
+    background-color:white;
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}

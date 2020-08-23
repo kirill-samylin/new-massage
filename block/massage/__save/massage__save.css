@@ -1,0 +1,16 @@
+.massage__save {
+    max-width: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.massage__save:hover {
+    background: gray;
+}
+.massage__save:focus {
+    outline: none;
+} 
